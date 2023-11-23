@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "funcionesdebase::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-funcionesdebase-Debug-c8d9cb2a7f016dfdd151.json",
 					"name" : "funcionesdebase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "integracionc++::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-integracionc++-Debug-207fb8f5368b9073b2d0.json",
+					"name" : "integracionc++",
 					"projectIndex" : 0
 				}
 			]
