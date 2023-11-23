@@ -172,6 +172,39 @@ build funcionesespecificas.exe: CXX_EXECUTABLE_LINKER__funcionesespecificas_Debu
   TARGET_IMPLIB = libfuncionesespecificas.dll.a
   TARGET_PDB = funcionesespecificas.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target manipulacionstrings
+
+
+#############################################
+# Order-only phony target for manipulacionstrings
+
+build cmake_object_order_depends_target_manipulacionstrings: phony || CMakeFiles/manipulacionstrings.dir
+
+build CMakeFiles/manipulacionstrings.dir/manipulacionstrings.cpp.obj: CXX_COMPILER__manipulacionstrings_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/manipulacionstrings.cpp || cmake_object_order_depends_target_manipulacionstrings
+  DEP_FILE = CMakeFiles\manipulacionstrings.dir\manipulacionstrings.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\manipulacionstrings.dir
+  OBJECT_FILE_DIR = CMakeFiles\manipulacionstrings.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target manipulacionstrings
+
+
+#############################################
+# Link the executable manipulacionstrings.exe
+
+build manipulacionstrings.exe: CXX_EXECUTABLE_LINKER__manipulacionstrings_Debug CMakeFiles/manipulacionstrings.dir/manipulacionstrings.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\manipulacionstrings.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = manipulacionstrings.exe
+  TARGET_IMPLIB = libmanipulacionstrings.dll.a
+  TARGET_PDB = manipulacionstrings.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -206,6 +239,8 @@ build funcionesespecificas: phony funcionesespecificas.exe
 
 build integracionc++: phony integracionc++.exe
 
+build manipulacionstrings: phony manipulacionstrings.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -214,7 +249,7 @@ build integracionc++: phony integracionc++.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug
 
-build all: phony clasestring.exe funcionesdebase.exe integracionc++.exe funcionesespecificas.exe
+build all: phony clasestring.exe funcionesdebase.exe integracionc++.exe funcionesespecificas.exe manipulacionstrings.exe
 
 # =============================================================================
 # Built-in targets

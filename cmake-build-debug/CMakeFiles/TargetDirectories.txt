@@ -2,5 +2,6 @@ C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug/CMakeFiles
 C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug/CMakeFiles/funcionesdebase.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug/CMakeFiles/integracionc++.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug/CMakeFiles/funcionesespecificas.dir
+C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug/CMakeFiles/manipulacionstrings.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/alber_wzgn3ys/Documents/GitHub/clasestring/cmake-build-debug/CMakeFiles/rebuild_cache.dir

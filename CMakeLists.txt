@@ -8,3 +8,4 @@ add_executable(clasestring
 add_executable(funcionesdebase funcionesdebase.cpp)
 add_executable(integracionc++ integracionc++.cpp)
 add_executable(funcionesespecificas funcionesespecificas.cpp)
+add_executable(manipulacionstrings manipulacionstrings.cpp)
