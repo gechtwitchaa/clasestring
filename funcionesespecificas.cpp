@@ -14,4 +14,9 @@ int main() {
         std::string nueva_subcadena = "universo";
         cadena.replace(indice, subcadena.length(), nueva_subcadena);
         std::cout << "Cadena con reemplazo: " << cadena << std::endl;
-    } 
+    } else {
+        std::cout << "La subcadena '" << subcadena << "' no se encontró en la cadena." << std::endl;
+    }
+
+    return 0;
+}
