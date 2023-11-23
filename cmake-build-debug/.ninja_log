@@ -1,5 +1,8 @@
 # ninja log v5
-1	1178	7224418454199269	CMakeFiles/clasestring.dir/cadenasstl.cpp.obj	2ca1d6813746d760
-1184	1366	7224418456032147	clasestring.exe	888ba514b591c248
-4	697	7224419959025787	CMakeFiles/clasestring.dir/cadenasstl.cpp.obj	2ca1d6813746d760
+17	810	7224423813356773	CMakeFiles/clasestring.dir/cadenasstl.cpp.obj	2ca1d6813746d760
 699	882	7224419960850907	clasestring.exe	888ba514b591c248
+6	801	7224423813156338	CMakeFiles/clasestring.dir/funcionesdebase.cpp.obj	2c053c86ddfe8791
+0	774	7224424397586275	CMakeFiles/funcionesdebase.dir/funcionesdebase.cpp.obj	ef09fc9f31c44254
+775	927	7224424399070827	funcionesdebase.exe	789c6bd500d07d4b
+3	532	7224424912180066	CMakeFiles/funcionesdebase.dir/funcionesdebase.cpp.obj	ef09fc9f31c44254
+533	784	7224424914693998	funcionesdebase.exe	789c6bd500d07d4b

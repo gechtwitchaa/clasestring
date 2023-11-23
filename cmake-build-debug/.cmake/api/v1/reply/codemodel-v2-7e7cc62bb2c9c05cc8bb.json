@@ -15,7 +15,8 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -30,7 +31,8 @@
 					"name" : "clasestring",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -41,6 +43,13 @@
 					"id" : "clasestring::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-clasestring-Debug-118e474db8ea00e9090d.json",
 					"name" : "clasestring",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "funcionesdebase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-funcionesdebase-Debug-c8d9cb2a7f016dfdd151.json",
+					"name" : "funcionesdebase",
 					"projectIndex" : 0
 				}
 			]
