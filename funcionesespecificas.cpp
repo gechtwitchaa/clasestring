@@ -11,3 +11,7 @@ int main() {
         std::cout << "La subcadena '" << subcadena << "' comienza en el índice: " << indice << std::endl;
 
 
+        std::string nueva_subcadena = "universo";
+        cadena.replace(indice, subcadena.length(), nueva_subcadena);
+        std::cout << "Cadena con reemplazo: " << cadena << std::endl;
+    } 
